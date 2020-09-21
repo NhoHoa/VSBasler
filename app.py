@@ -22,7 +22,7 @@ class Window_form(Ui_MainWindow,QMainWindow):
 		self.low_thresh = 125
 		self.scaleFactor = 1
 		
-# Le Nho Hoa da Modify hahahaha
+
 	def setupUi_more(self,MainWindow):
 		self.setupUi(MainWindow)
 		self.actionSetup.triggered.connect(self.zoomIn)
